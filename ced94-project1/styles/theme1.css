@@ -1,0 +1,141 @@
+
+body {
+  background-color: #4ca191;
+  color: #ffffff;
+  width: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+
+h1 {
+  color: #022753;
+  font-weight: bolder;
+  font-variant:small-caps;
+  text-decoration: underline;
+  font-family: fantasy;
+}
+
+h2 {
+  color: #022f65;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: #022f65;
+  font-family: sans-serif;
+}
+
+li a{
+  color: #022f65;
+  font-style:italic;
+}
+
+p a{
+  color: #022f65;
+  font-style:italic;
+}
+
+p {
+  color: #ffffff;
+  padding: 10px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+li {
+  color: #ffffff;
+  padding: 2px;
+  font-family: sans-serif;
+}
+
+blockquote {
+  color: #022f65;
+  padding: 5px;
+  font-family: fantasy;
+  font-weight:bolder;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li{
+  display:inline-block;
+  font-weight:bolder;
+  margin:10px;
+  width: auto;
+  padding:10px;
+  border-style: double;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+}
+article {
+  width:700px;
+}
+
+aside {
+  background-color: #0F8B93;
+  width: 300px;
+  padding: 10px;
+}
+aside li{
+  margin-bottom:20px;
+}
+
+figure{
+  width:650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption {
+  color: #ffffff;
+  padding: 10px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#bottomHome {
+    text-align: center;
+}
+
+#tripStats {
+  background-color: #0F8B93;
+  width: 300px;
+  padding: 10px;
+  height:400px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width:80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.box {
+  flex-grow: 1;
+  margin: 10px;
+  padding: 10px;
+  max-width: 250px;
+  background-color: #0F8B93;
+}
+
+#map {
+  margin-top:35px;
+  align-items: center;
+  background-color: transparent;
+  width: 300px;
+  padding: 10px;
+}
+
+#mapCaption {
+  color: #022f65;
+  padding: 2px;
+  font-family: sans-serif;
+  text-align: center;
+}
